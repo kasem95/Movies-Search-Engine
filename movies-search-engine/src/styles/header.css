@@ -1,0 +1,81 @@
+.app__bar{
+    position: sticky;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    background-color: #3a372b;
+    justify-content: space-evenly;
+    height: 70px;
+}
+
+.app__burger__container {
+    flex: 0.2;
+    display: flex;
+    align-items: center;
+}
+
+.app__burger {
+    padding-left: 10%;
+    color: rgb(255, 187, 0);
+}
+
+.app__burger:hover {
+    cursor: pointer;
+}
+
+.app__logo {
+    height: 50px;
+    width: 50px;
+    padding-left: 25%;
+}
+
+.app__logo:hover {
+    cursor: pointer;
+}
+
+.app__logo__container {
+    flex: 0.2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+}
+
+.app__searchBar {
+    flex: 0.6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border:1px solid rgb(255, 187, 0);
+    border-radius: 10px;
+}
+
+.searchBar {
+    height: 30px;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+
+.searchBar__container {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.searchBar__logo__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 187, 0);
+    height: 32px;
+    border-radius: 10px;
+}
+
+.searchBar__logo:hover {
+    cursor: pointer;
+}
