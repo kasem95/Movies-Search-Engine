@@ -58,6 +58,7 @@
     border: none;
     outline: none;
     border-radius: 10px;
+    font-size: large;
 }
 
 .searchBar__container {
@@ -65,6 +66,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .searchBar__logo__container {

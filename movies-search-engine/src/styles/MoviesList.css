@@ -1,0 +1,29 @@
+.movies_list__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.movies_list {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+    gap: 5px;
+    padding: 0;
+    margin: 5px;
+}
+
+.movies_list_next {
+    height: 50px;
+    width: 100px;
+    margin-bottom: 5px;
+}
+
+.movies_list_buttons {
+    display: flex;
+    width: 50%;
+    justify-content: space-evenly;
+    align-items: center;
+}
